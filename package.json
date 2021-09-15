@@ -1,0 +1,20 @@
+{
+  "name": "event-server",
+  "version": "1.0.0",
+  "description": "Server Sent Event - NodeJs event server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SSE"
+  ],
+  "author": "Chamil Prabodha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "type": "module"
+}
